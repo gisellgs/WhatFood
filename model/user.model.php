@@ -115,13 +115,14 @@ class UserModel{
 							$line = $e->getLine();
 
 							DataBase::createLog($code, $text, $file, $line);
+							$result = 'No existe!!!';
 					}
 					return $result;
 				}
 
 
 				public function delete($data){
-						print_r($data);
+						// print_r($data);
             try {
                 $sql="DELETE FROM access WHERE user_id = ?";
                 $query=$this->pdo->prepare($sql);

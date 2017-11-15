@@ -2,6 +2,7 @@
 <script>
     if ( <?php echo $_GET['p'] <> '' ?>){
         alert("<?php echo $_GET['p'] ?>");
+        <?php $p='' ?>
     }
 </script>
 

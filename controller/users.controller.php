@@ -65,13 +65,15 @@ class UsersController{
 
         // die();
         $result = $this->users->readUserbyEmail($data);
+        // $prueba = 'Mensaje de prueba';
         header("Location: dashboard?p=$result");
-        // die();
 
+        die();
 
         $result = $this->users->createUser($data);
-        header("Location: dashboard?p=$result");
-        // header("Location: gestiontp ");
+        // header("Location: dashboard?p=$result");
+
+        // header("Location: gestion-users ");
     }
 
 
@@ -84,8 +86,8 @@ class UsersController{
 
     public function deleteUser(){
         $data = $_GET['data'];
-        $result = $this->tpdc->delete($data);
-        // header("Location: gestion-tpdc");
+        $result = $this->users->delete($data);
+        header("Location: gestion-users");
     }
 
     // public function readEmail(){
