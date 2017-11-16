@@ -49,31 +49,24 @@ class UsersController{
         require_once "views/include/scope.footer.php";
     }
 
-    public function nuewUser(){
-        require_once "views/include/scope.header.php";
-        require_once "views/modules/auth/register.php";
-        require_once "views/include/scope.footer.php";
-
-    }
+    // public function nuewUser(){
+    //     require_once "views/include/scope.header.php";
+    //     require_once "views/modules/auth/register.php";
+    //     require_once "views/include/scope.footer.php";
+    //
+    // }
 
 
     public function newUser(){
         $data = $_POST['data'];
-        // print_r($data[2]);
         $email = $data[2];
-        echo $email;
-
-        // die();
-        $result = $this->users->readUserbyEmail($data);
-        // $prueba = 'Mensaje de prueba';
-        header("Location: dashboard?p=$result");
-
-        die();
-
-        $result = $this->users->createUser($data);
-        // header("Location: dashboard?p=$result");
-
-        // header("Location: gestion-users ");
+        $result = $this->users->readUserbyEmail($email);
+        if($result == ' '){
+          header("Location: dashboard?p=$result");
+        }else{
+          $result = $this->users->createUser($data);
+          header("Location: dashboard?p=$result");
+        }
     }
 
 
@@ -89,12 +82,6 @@ class UsersController{
         $result = $this->users->delete($data);
         header("Location: gestion-users");
     }
-
-    // public function readEmail(){
-    //     $result = $this->users->readUserbyEmail();
-    //     return $result;
-    // }
-
 
 
 }

@@ -24,21 +24,21 @@ class UserModel{
 	********************************************/
 	public function createUser($data){
 		 try{
-				$data[4] = 'USU'.time();
-				$data[5] = 0; //El asume el automatico incremental de la DB
-				$data[6] = "offline";
-				$data[3] = password_hash($data[3], PASSWORD_DEFAULT);
-				// print_r($data);
-				// echo '</br>';
-				$sql = "INSERT INTO users VALUES (?,?,?,?)";
-				$query = $this->pdo->prepare($sql);
-				$query->execute(array($data[4],$data[0],$data[1],$data[2]));
+					$data[4] = 'USU'.time();
+					$data[5] = 0; //El asume el automatico incremental de la DB
+					$data[6] = "offline";
+					$data[3] = password_hash($data[3], PASSWORD_DEFAULT);
+					// print_r($data);
+					// echo '</br>';
+					$sql = "INSERT INTO users VALUES (?,?,?,?)";
+					$query = $this->pdo->prepare($sql);
+					$query->execute(array($data[4],$data[0],$data[1],$data[2]));
 
-				$sql = "INSERT INTO access VALUES (?,?,?,0,?)";
-				$query = $this->pdo->prepare($sql);
-				$query->execute(array($data[5],$data[4],$data[3],$data[6]));
-				$msn = "Guardado con exito";
-				}catch (PDOException $e) {
+					$sql = "INSERT INTO access VALUES (?,?,?,0,?)";
+					$query = $this->pdo->prepare($sql);
+					$query->execute(array($data[5],$data[4],$data[3],$data[6]));
+					$msn = "Guardo con exito";
+			}catch (PDOException $e) {
 					$code = $e->getCode();
 					$text = $e->getMessage();
 					$file = $e->getFile();
@@ -102,26 +102,31 @@ class UserModel{
 			 ********************************************/
 			//  * Se busca un usuario por medio del correo
 			 public function readUserbyEmail($data){
+				 	$email = $data[2];
+					// print_r($data);
+					// die();
 					try{
-							$sql = "SELECT users.user_id, user_name, user_lastname, acc_token, acc_pass FROM users INNER JOIN access ON access.user_id = users.user_id WHERE user_email = ?";
+							$sql = "SELECT * FROM users WHERE user_email = $data[2]";
 							$query = $this->pdo->prepare($sql);
-							$query->execute(array($data[0]));
+							$query->execute(array($data[2]));
 							$result = $query->fetch(PDO::FETCH_BOTH);
 						}catch (PDOException $e) {
 							$code = $e->getCode();
 							$text = $e->getMessage();
 							$file = $e->getFile();
 							$line = $e->getLine();
-
 							DataBase::createLog($code, $text, $file, $line);
+							$result = 'No Existe.';
+							// die(print_r($result));
+
 					}
+
 					return $result;
 				}
 
 
 				public function delete($data){
 						// print_r($data);
-						// die();
             try {
                 $sql="DELETE FROM access WHERE user_id = ?";
                 $query=$this->pdo->prepare($sql);

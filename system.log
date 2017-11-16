@@ -296,3 +296,283 @@
 
 2017-11-10 09:36:27 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\V2\model\user.model.php --> 90
 
+2017-11-16 02:44:57 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co = 'Fredy'' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 02:45:04 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co = 'Fredy'' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 02:45:07 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co = 'Fredy'' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 02:45:54 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co = 'Fredy'' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 02:46:00 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co = 'Fredy'' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 02:46:05 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co = 'Fredy'' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 02:46:19 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co = 'Fredy'' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 02:46:30 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co = 'Fredy'' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 02:46:37 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co = 'Fredy'' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 02:48:35 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co = 'Fredy'' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 108
+
+2017-11-16 02:48:46 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co = 'Fredy'' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 108
+
+2017-11-16 02:50:05 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 108
+
+2017-11-16 02:50:19 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 108
+
+2017-11-16 02:52:49 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 108
+
+2017-11-16 02:52:55 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 108
+
+2017-11-16 02:52:59 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 108
+
+2017-11-16 03:03:12 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:03:17 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:03:21 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:03:26 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:03:59 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:04:07 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:05:56 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=falun8@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:06:02 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=falun8@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:06:05 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=falujan8@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:07:28 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=falujan8@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:07:47 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=falujan8@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:07:48 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=falujan8@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:07:50 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=falujan8@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:07:56 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=falujan8@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:08:58 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=falujan8@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 109
+
+2017-11-16 03:20:59 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:21:08 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:21:13 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:23:42 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:23:56 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:29:33 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 109
+
+2017-11-16 03:30:08 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:30:56 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:31:01 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:32:10 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:32:28 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:32:59 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:33:58 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 110
+
+2017-11-16 03:35:43 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:35:50 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:36:02 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:36:07 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:41:30 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@midafasena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:41:54 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:42:20 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:42:43 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:43:04 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:43:35 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:43:42 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:45:02 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:45:27 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:50:26 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:50:27 -- Error del Sistema: # 42S22 SQLSTATE[42S22]: Column not found: 1054 Unknown column 'adfadf' in 'where clause' En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:51:43 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:51:46 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'adf adf23' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:52:39 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:52:43 -- Error del Sistema: # 42S22 SQLSTATE[42S22]: Column not found: 1054 Unknown column 'faadfadfadfaf' in 'where clause' En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:56:18 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 03:56:20 -- Error del Sistema: # 42S22 SQLSTATE[42S22]: Column not found: 1054 Unknown column '2134dfadf' in 'where clause' En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:01:43 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:01:48 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:02:03 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:04:58 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:06:23 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:06:32 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:07:05 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:07:16 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:08:01 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:08:06 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:12:47 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:12:54 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:18 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:18 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:18 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:20 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:20 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:22 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:23 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:23 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:23 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:24 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:24 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:25 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:25 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:25 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:25 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:25 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:25 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:30 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:32 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:34 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:34 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:36 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:36 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:38 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:38 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:39 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:39 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:39 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:39 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:39 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:39 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:40 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:40 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:40 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:40 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:40 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:40 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:40 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:40 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:41 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:41 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:41 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:41 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:41 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:41 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:41 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:41 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 04:13:42 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 04:13:42 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 11:40:31 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 11:40:31 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 11:42:07 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 11:42:07 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 11:42:07 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 89
+
+2017-11-16 11:42:11 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 11:42:11 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 11:42:14 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 11:42:14 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 11:42:45 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 111
+
+2017-11-16 12:06:04 -- Error del Sistema: # 23000 Hay duplicidad de información, el PK ya existe En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 35
+
+2017-11-16 12:06:08 -- Error del Sistema: # 23000 Hay duplicidad de información, el PK ya existe En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 35
+
+2017-11-16 12:32:00 -- Error del Sistema: # HY093 Los comodines y los parametros no coinciden revise bien En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 108
+
+2017-11-16 12:32:23 -- Error del Sistema: # 42000 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@misena.edu.co' at line 1 En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 108
+

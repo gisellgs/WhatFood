@@ -4,14 +4,14 @@
         echo "No ha iniciado sesion";
 
     }else{
-      print_r($_SESSION);
-      echo $_SESSION["user"]["name"].' '.$_SESSION["user"]["lastn"];
+      // print_r($_SESSION);
+      // echo $_SESSION["user"]["name"].' '.$_SESSION["user"]["lastn"];
     }
  ?>
 
 
 <div class="row" id="pg-registro">
-  <h3 class="center-align">REGISTRAR USUARIO**+</h3>
+  <h3 class="center-align">REGISTRAR USUARIO</h3>
     <div class="col m4 offset-m4 blue-grey lighten-5">
         <div class="row">
             <!-- <form action="guardar-visitante" id="frmLogin" method="post" data-parsley-validate> -->
