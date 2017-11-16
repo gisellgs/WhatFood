@@ -45,7 +45,7 @@ class UsersController{
 
     public function viewsCreate(){
         require_once "views/include/scope.header.php";
-        require_once "views/modules/users/register.php";
+        require_once "views/modules/users/createUser.php";
         require_once "views/include/scope.footer.php";
     }
 

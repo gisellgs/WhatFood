@@ -4,7 +4,7 @@
         <p>Este es el modulo de Tipos o Categoría de Puntos de Comida (PDC)</p>
         <div class="wrap--btns">
             <ul>
-                <li><a href="crear-tpdc" class="magenta" >Nuevo Tipo PDC</a></li>
+                <li><a href="crear-tpdc" > <i class="fa fa-plus-circle" aria-hidden="true"></i> <i class="fa fa-cutlery" aria-hidden="true"></i> </a></li>
                 <!-- <li><a href="reporte-tpdc" class="magentaRep" >Reportes Tipo PDC</a></li> -->
             </ul>
         </div>
