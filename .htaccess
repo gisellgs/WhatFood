@@ -13,9 +13,10 @@ RewriteRule ^new-user$         index.php?c=auth&a=nuewUser
 #Inserta(guarda) el NUEVO registro ingresado en el formulario
 RewriteRule ^guardar-visitante$ index.php?c=users&a=newUser
 
-RewriteRule ^acceso$             index.php?c=auth&a=userAuth
-RewriteRule ^acceso/validoEmail$ index.php?c=auth&a=validEmail
-RewriteRule ^cerrar-sesion$      index.php?c=auth&a=logout
+RewriteRule ^acceso$                index.php?c=auth&a=userAuth
+RewriteRule ^acceso/validoEmail$    index.php?c=auth&a=validEmail
+RewriteRule ^acceso/validoEmailNew$ index.php?c=auth&a=validEmailNew
+RewriteRule ^cerrar-sesion$         index.php?c=auth&a=logout
 
 
 #SECCION USUARIOS
@@ -43,7 +44,7 @@ RewriteRule ^ver-detalle-user-(\w+)$ index.php?c=users&a=viewsDetail&data=$1
 
 
 #--------------------------------------------------------------------------
-#SECCION TPDCS
+#SECCION TPDC
 RewriteRule ^gestion-tpdc$ index.php?c=tpdc
 
 #CREAR registro en Formulario (NUEVO)
@@ -65,6 +66,27 @@ RewriteRule ^eliminar-tpdc-(\w+)$ index.php?c=tpdc&a=deleteTpdc&data=$1
 #ver DETALLE
 RewriteRule ^ver-detalle-tpdc-(\w+)$ index.php?c=tpdc&a=viewsDetail&data=$1
 #--------------------------------------------------------------------------
+
+
+#--------------------------------------------------------------------------
+#SECCION PDC
+RewriteRule ^gestion-pdc$ index.php?c=pdc
+
+RewriteRule ^crear-pdc$ index.php?c=pdc&a=viewsCreate
+RewriteRule ^guardar-pdc$ index.php?c=pdc&a=newPdc
+
+#UPDATE
+RewriteRule ^actualizar-pdc-(\w+)$ index.php?c=pdc&a=viewsUpdate&data=$1
+RewriteRule ^actualizando-pdc$ index.php?c=pdc&a=updatePdc
+
+#ELIMINAR
+RewriteRule ^eliminar-pdc-(\w+)$ index.php?c=pdc&a=deletePdcc&data=$1
+
+#ver DETALLE
+RewriteRule ^ver-detalle-pdc-(\w+)$ index.php?c=pdc&a=viewsDetail&data=$1
+#--------------------------------------------------------------------------
+
+
 
 #--------------------------------------------------------------------------
 #SECCION SECURITY

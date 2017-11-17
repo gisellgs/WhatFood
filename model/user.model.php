@@ -28,14 +28,19 @@ class UserModel{
 				$data[5] = 0; //El asume el automatico incremental de la DB
 				$data[6] = "offline";
 				$data[3] = password_hash($data[3], PASSWORD_DEFAULT);
-				// print_r($data);
+				print_r($data);
+
 				// echo '</br>';
 				$sql = "INSERT INTO users VALUES (?,?,?,?)";
 				$query = $this->pdo->prepare($sql);
+																// ID      NAME    LASTNAM  Email
 				$query->execute(array($data[4],$data[0],$data[1],$data[2]));
+
 
 				$sql = "INSERT INTO access VALUES (?,?,?,0,?)";
 				$query = $this->pdo->prepare($sql);
+				// die();
+				//                     int        id        passw   offline
 				$query->execute(array($data[5],$data[4],$data[3],$data[6]));
 				$msn = "Guardado con exito";
 				}catch (PDOException $e) {
@@ -44,7 +49,7 @@ class UserModel{
 					$file = $e->getFile();
 					$line = $e->getLine();
 					$msn = "Ocurrio un error, notificarle al administrador";
-					/*
+
 					echo $code;
 					echo '</br>';
 					echo $text;
@@ -53,7 +58,7 @@ class UserModel{
 					echo '</br>';
 					echo $line;
 					echo '</br>';
-					*/
+					die();
 					DataBase::createLog($code, $text, $file, $line);
 
 			  }

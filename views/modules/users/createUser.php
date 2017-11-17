@@ -32,12 +32,12 @@
                 </div>
 
                 <div class="input-field col s12">
-                    <label for="txtpass"> <i class="fa fa-key" aria-hidden="true"></i> Contraseña</label>
-                    <input  id="txtpass" type="password" class="validate" name="data[]" required="required" value="123">
+                    <label for="txtpassNew"> <i class="fa fa-key" aria-hidden="true"></i> Contraseña</label>
+                    <input  id="txtpassNew" type="password" class="validate" name="data[]" required="required" value="123">
                 </div>
 
                 <div class="col s12">
-                    <button type="submit" class="btn cyan waves-effect waves-light" style="width:100%; margin-top:20px" id="btnRegistro">GUARDAR USUARIO</button>
+                    <button type="submit" class="btn cyan waves-effect waves-light" style="width:100%; margin-top:20px" id="btnLoginNew">GUARDAR USUARIO</button>
                 </div>
             </form>
         </div>

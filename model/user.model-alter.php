@@ -103,8 +103,8 @@ class UserModel{
 			//  * Se busca un usuario por medio del correo
 			 public function readUserbyEmail($data){
 				 	$email = $data[2];
-					// print_r($data);
-					// die();
+					print_r($email);
+					die();
 					try{
 							$sql = "SELECT * FROM users WHERE user_email = $data[2]";
 							$query = $this->pdo->prepare($sql);

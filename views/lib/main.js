@@ -2,6 +2,7 @@
  ** VALIDAMOS QUE EXISTA EL CORREO                **
  ***************************************************/
 $("#txtpass").focus(function(){
+
   $("#txtemail").siblings("span").remove();
   var email = $("#txtemail").val();
   $.post("acceso/validoEmail",{email:email},function(data){
@@ -15,6 +16,27 @@ $("#txtpass").focus(function(){
           }
   });
 })
+
+
+/***********************************************************************
+ ** VALIDAMOS QUE no EXISTA EL CORREO para el new user                **
+ ***********************************************************************/
+$("#txtpassNew").focus(function(){
+
+  $("#txtemailNew").siblings("span").remove();
+  var email = $("#txtemailNew").val();
+  $.post("acceso/validoEmailNew",{email:email},function(data){
+          var data = JSON.parse(data);
+          $("#txtemailNew").siblings("label").after("<span class='error'>"+data[0]+"</span>");
+
+          if(data[1] == false){
+            $("#btnLoginNew").attr("disabled",true);
+          }else{
+            $("#btnLoginNew").attr("disabled",false);
+          }
+  });
+})
+
 
 $("#txtemail").focus(function(){
   $(this).siblings("span").remove();

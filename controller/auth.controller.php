@@ -42,13 +42,26 @@ class AuthController{
     // Metodo para validar que el correo si exista en la base de datos (este metodo lo invoca el javascript)
     public function validEmail(){
         $email[0] = $_POST["email"];
-        // die($email[0]);
         $response = $this->users->readUserbyEmail($email);
 
         if(count($response[0])<=0){
           $return = array("El correo no existe en nuestra aplicación",false);
         }else{
           $return = array("",true);
+        }
+        echo json_encode($return);
+    }
+
+
+    // Metodo para validar que el correo si exista en la base de datos (este metodo lo invoca el javascript)
+    public function validEmailNew(){
+        $email[0] = $_POST["email"];
+        $response = $this->users->readUserbyEmail($email);
+
+        if(count($response[0])<=0){
+          $return = array("",true);
+        }else{
+          $return = array("El correo ya existe.</br> ",false);
         }
         echo json_encode($return);
     }

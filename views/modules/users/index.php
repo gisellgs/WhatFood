@@ -54,7 +54,7 @@
                         <td>
                           <div class="menu--top2" >
                              <ul>
-                              <li><a href="actualizar-user-<?php echo $row['user_id'] ?>"><i class="fa fa-pencil" aria-hidden="true"> Actualizar</i></a></li>
+                              <!-- <li><a href="actualizar-user-<?php echo $row['user_id'] ?>"><i class="fa fa-pencil" aria-hidden="true"> Actualizar</i></a></li> -->
                               <!-- <a href="ver-detalle-user-<?php echo $row['user_id'] ?>"><i class="fa fa-eye" aria-hidden="true"> Detalles</i></a> -->
                               <a href="eliminar-user-<?php echo $row['user_id'] ?>"><i class="fa fa-trash" aria-hidden="true"> Eliminar</i></a>
                             </ul>

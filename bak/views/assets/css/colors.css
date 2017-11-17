@@ -1,0 +1,91 @@
+/* Colores tipograficos*/
+.text-white{color:ffffff}
+.text-magenta {color: #F21D41}
+.bienvenida{color: white;}
+
+.wrap--content .menu--top2 ul a:hover{color: blue;}
+.menu--top ul li a:hover{color:blue;}
+
+/* Colores Fondo*/
+.bienvenida{background: black;}
+
+.bienvenida--art{
+  background: rgb(228, 228, 228);
+  color: black;
+}
+
+.purple-dark{
+  /*background-color: #6F14BA;*/
+  color: #eeeeee;
+  background-color: rgba(255, 115, 0, 1);
+
+}
+
+/*.magenta, .dataTables_paginate{*/
+.magenta{
+  background-color: rgba(255, 115, 0, 1);
+  color: #f6f6df;
+}
+
+.btn:hover{
+  box-shadow: 0 5px 10px 5px rgba(0,0,0,0.4);
+  /*box-shadow:*/
+}
+
+.paginate_button, .previous, .enable{
+    background-color: rgba(46, 140, 80, 0.94);
+    color: rgb(255, 255, 255);
+}
+
+.dataTable.no-footer thead{
+  background-color: black;
+  color: #C7AC18;
+}
+
+.dataTable.no-footer .even{
+  background-color: rgb(199, 214, 241);
+  /*background-color: red;*/
+}
+
+.dataTable.no-footer .even:hover{
+  color: grey;
+}
+
+.odd:hover {
+  color: grey;
+  /*background: rgb(18, 131, 171);*/
+}
+
+.even:hover{
+  /*color: grey;*/
+  color: black;
+  /*background: rgb(18, 131, 171);*/
+}
+
+.paginate_button .next .disabled{
+  background: solid;
+}
+
+.modules header div.wrap--btns ul a.magentaRep{
+  background: #D1360C;
+  color: #EBEBBC;
+}
+.modules header div.wrap--btns ul a.magentaImp{
+  background: #0CAED1;
+  color: #EBEBBC;
+}
+
+a.magenta:hover {
+  color: #D1360C;
+}
+
+.modules header div.wrap--btns ul a.magentaRep:hover{
+  color: orange;
+}
+.modules header div.wrap--btns ul a.magentaImp:hover{
+    color: #D1360C;
+}
+
+.wrap--datagrid{
+  color: black;
+}
