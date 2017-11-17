@@ -604,3 +604,5 @@
 
 2017-11-17 03:03:20 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 94
 
+2017-11-17 12:35:00 -- Error del Sistema: # 21000 SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row En el archivo D:\xampp\htdocs\WhatFood\model\user.model.php --> 94
+
