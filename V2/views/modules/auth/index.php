@@ -47,11 +47,11 @@
             <div class="redes--sociales">
                 <ul>
                     <li><a href="http://www.facebook.com" class="app"> <i class="fa fa-facebook-official " aria-hidden="true"> </i> </a></li>
-                    <li><a href="http://www.gmail.com"    > <i class="fa fa-google" aria-hidden="true"> </i> </a></li>
-                    <li><a href="http://www.twitter.com"  > <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                    <li><a href="http://www.gmail.com"    class="app"> <i class="fa fa-google" aria-hidden="true"> </i> </a></li>
+                    <li><a href="http://www.twitter.com"  class="app"> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
-<!-- </body> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->

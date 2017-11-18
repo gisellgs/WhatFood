@@ -8,7 +8,7 @@
 
 <div class="modules">
     <header>
-        <h1>Puntos de comida </h1>
+        <h1><i class="fa fa-window-restore" aria-hidden="true"></i> - Puntos de comida </h1>
         <p>Este es el modulo de gestion de Puntos de Comida (PDC)</p>
         <div class="wrap--btns">
             <div class="breadcrums">
@@ -19,10 +19,9 @@
             		</ul>
             </div>
         </div>
-
         <div class="wrap--btns">
             <ul>
-                <li><a href="crear-pdc"> <i class="fa fa-plus" aria-hidden="true"> Agregar</i> </a></li>
+                <li><a href="crear-pdc"> <i class="fa fa-plus-circle" aria-hidden="true"></i> </a></li>
             </ul>
         </div>
 

@@ -8,7 +8,7 @@
 
 <div class="modules">
     <header>
-        <h1> <i class="fa fa-cutlery" aria-hidden="true"></i> Tipos PDC</h1>
+        <h1> <i class="fa fa-cutlery" aria-hidden="true"></i> - Tipos PDC</h1>
         <p>Este es el modulo de tipos o categoría de Puntos de Comida (PDC)</p>
         <div class="wrap--btns">
             <div class="breadcrums">
