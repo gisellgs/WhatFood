@@ -13,21 +13,25 @@
         <link rel="stylesheet" href="views/assets/css/main.css">
      </head>
     <body>
-        <section class="container">
-            <header class="main--nav purple-dark">
+        <?php
+          if(isset($_SESSION["user"])){?>
+              <section class="container">
+                  <header class="main--nav purple-dark">
 
-              <div class="icon--mobile">
-                  <!-- <i class="fa fa-window-close"></i> -->
-              </div>
+                    <div class="icon--mobile">
+                        <!-- <i class="fa fa-window-close"></i> -->
+                    </div>
+                    <?php
+                          require_once("views/include/scope.profile.php");
+                          require_once("views/include/scope.navigator.php");
+                    ?>
+                  </header>
 
-              <?php
-                  require_once("views/include/scope.profile.php");
-                  require_once("views/include/scope.navigator.php");
-              ?>
-            </header>
-
-            <div class="wrap--content">
-                <?php
-                    require_once("views/include/scope.menutop.php");
-                ?>
-                <article class="">
+                  <div class="wrap--content">
+                      <?php
+                          require_once("views/include/scope.menutop.php");
+                      ?>
+                      <article class="">
+          <?php
+            };
+            ?>

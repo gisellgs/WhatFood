@@ -61,11 +61,12 @@ class AuthController{
         if(count($response[0])<=0){
           $return = array("",true);
         }else{
-          $return = array("El correo ya existe.</br> ",false);
+          // print_r($result);
+          // die();
+          $return = array("El correo ya existe</br>",false);
         }
         echo json_encode($return);
     }
-
 
 
 

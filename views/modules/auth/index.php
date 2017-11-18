@@ -50,7 +50,7 @@
                         <input  id="txtpass" type="password"  placeholder="Contraseña" class="validate" name="data[]" required="required">
                     </div>
                     <!-- <button type="submit" class="btnred" id="btnLogin">INICIAR SESION</button> -->
-                    <button type="submit" class="btnred" id="btnLogin">INICIAR SESION</button>
+                    <button type="submit" class="" id="btnLogin">INICIAR SESION</button>
                 </form>
             </div>
 

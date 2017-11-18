@@ -34,9 +34,9 @@ $(document).ready(function(){
 
 
 
-/***************************************************
- ** VALIDAMOS QUE EXISTA EL CORREO                **
- ***************************************************/
+/*****************************************************************
+ ** VALIDAMOS QUE EXISTA EL CORREO al dar FOCUS PASSW  **
+ *****************************************************************/
 $("#txtpass").focus(function(){
   $("#txtemail").siblings("span").remove();
   var email = $("#txtemail").val();
@@ -80,6 +80,10 @@ $("#txtemail").focus(function(){
   $(this).siblings("span").remove();
 })
 
+$("#txtemailNew").focus(function(){
+  $(this).siblings("span").remove();
+})
+
 
 /***************************************************
  ** INICIAMOS SESION SI EL USUARIO EXISTE         **
@@ -101,3 +105,30 @@ $("#frmLogin").submit(function(e) {
             })
         }
 });
+
+
+// VALIDA DESDE EL BOTON SUBMIT EL email New User
+function frmLoginVisitor() {
+    var x = document.forms["frmNewUser"]["txtemailNew"].value;
+    if (x == "") {
+        alert("Complete todo los campos");
+        return false;
+    }else{
+      $("#txtemailNew").siblings("span").remove();
+      var email = $("#txtemailNew").val();
+      $.post("acceso/validoEmailNew",{email:email},function(data){
+              var data = JSON.parse(data);
+              $("#txtemailNew").siblings("label").after("<span class='error'>"+data[0]+"</span>");
+
+              if(data[1] == false){
+                $("#btnLoginNew").attr("disabled",true);
+                // alert("aqui estoy");
+                // return false;
+              }else{
+                $("#btnLoginNew").attr("disabled",false);
+
+              }
+      });
+      // return false;
+    }
+}

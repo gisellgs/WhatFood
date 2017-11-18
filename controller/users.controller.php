@@ -61,6 +61,7 @@ class UsersController{
         $data = $_POST['data'];
         $email = $data[2];
         $result = $this->users->readUserbyEmail($email);
+
         if($result == ' '){
           header("Location: dashboard?p=$result");
         }else{

@@ -24,25 +24,27 @@ class UserModel{
 	********************************************/
 	public function createUser($data){
 		 try{
-				$data[4] = 'USU'.time();
-				$data[5] = 0; //El asume el automatico incremental de la DB
-				$data[6] = "offline";
-				$data[3] = password_hash($data[3], PASSWORD_DEFAULT);
-				print_r($data);
+					$data[4] = 'USU'.time();
+					$data[5] = 0; //El asume el automatico incremental de la DB
+					$data[6] = "offline";
+					$data[3] = password_hash($data[3], PASSWORD_DEFAULT);
+					print_r($data);
 
-				// echo '</br>';
-				$sql = "INSERT INTO users VALUES (?,?,?,?)";
-				$query = $this->pdo->prepare($sql);
-																// ID      NAME    LASTNAM  Email
-				$query->execute(array($data[4],$data[0],$data[1],$data[2]));
+					// echo '</br>';
+					$sql = "INSERT INTO users VALUES (?,?,?,?)";
+					$query = $this->pdo->prepare($sql);
+																	// ID      NAME    LASTNAM  Email
+					$query->execute(array($data[4],$data[0],$data[1],$data[2]));
 
 
-				$sql = "INSERT INTO access VALUES (?,?,?,0,?)";
-				$query = $this->pdo->prepare($sql);
-				// die();
-				//                     int        id        passw   offline
-				$query->execute(array($data[5],$data[4],$data[3],$data[6]));
-				$msn = "Guardado con exito";
+					$sql = "INSERT INTO access VALUES (?,?,?,0,?)";
+					$query = $this->pdo->prepare($sql);
+					// die();
+					//                     int        id        passw   offline
+					$query->execute(array($data[5],$data[4],$data[3],$data[6]));
+					// echo ($result);
+					// die();
+					$msn = "Guardado con exito";
 				}catch (PDOException $e) {
 					$code = $e->getCode();
 					$text = $e->getMessage();
