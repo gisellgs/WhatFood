@@ -4,14 +4,12 @@
     }
 </script>
 
-    <head>
-        <title>Inicio de sesion</title>
-        <!-- <link rel="stylesheet" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css"> -->
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="views/assets/css/main.css">
-    </head>
+<head>
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="views/assets/css/main.css">
+</head>
 <div class="modules session" id="pg-inicio">
     <div class="background-session">
         <div class="security">
@@ -19,7 +17,6 @@
                 <div class="h1food">
                     <img src="views/assets/image/logowhatfood.png">
                 </div>
-                <!-- <p>Inicio de sesión</p> -->
             </header>
 
             <div class="login">

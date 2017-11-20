@@ -80,7 +80,7 @@ RewriteRule ^actualizar-pdc-(\w+)$ index.php?c=pdc&a=viewsUpdate&data=$1
 RewriteRule ^actualizando-pdc$ index.php?c=pdc&a=updatePdc
 
 #ELIMINAR
-RewriteRule ^eliminar-pdc-(\w+)$ index.php?c=pdc&a=deletePdcc&data=$1
+RewriteRule ^eliminar-pdc-(\w+)$ index.php?c=pdc&a=deletePdc&data=$1
 
 #ver DETALLE
 RewriteRule ^ver-detalle-pdc-(\w+)$ index.php?c=pdc&a=viewsDetail&data=$1

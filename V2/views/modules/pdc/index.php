@@ -31,27 +31,34 @@
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Complejo</th>
+                    <th>Nombre</th>
                     <th>Dirección</th>
-                    <th>Regional</th>
+                    <th>Estado</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
             <?php
             $item =1;
-                foreach ($this->readComplejo() as $row) {?>
+                foreach ($this->readPdc() as $row) {?>
                     <tr>
                         <td><?php echo $item;?></td>
-                        <td><?php echo $row['compNombre'] ?></td>
-                        <td><?php echo $row['compDireccion'] ?></td>
-                        <td><?php echo $row['regiNombre'] ?></td>
+                        <td><?php echo $row['pdc_nombre'] ?></td>
+                        <td><?php echo $row['pdc_direccion'] ?></td>
+                        <td><?php
+                            $estado = $row['pdc_estado'];
+                            if($estado == 1){
+                              echo "<a>Abierto</a>";
+                            }else{
+                              echo "<a>Cerrado</a>";
+                            }?>
+                        </td>
                         <td>
                           <div class="menu--top2" >
                             <ul>
-                              <li><a href="actualizar-complejo-<?php echo $row['compCodigo'] ;?>"><i class="fa fa-pencil" aria-hidden="true"> Actualizar</i></a></li>
-                              <!-- <a href="ver-detalle-complejo-<?php echo $row['compCodigo'] ;?>"><i class="fa fa-eye" aria-hidden="true"> Detalles</i></a> -->
-                              <a href="eliminar-complejo-<?php echo $row['compCodigo'] ;?>"><i class="fa fa-trash" aria-hidden="true"> Eliminar</i></a>
+                              <li><a href="actualizar-pdc-<?php echo $row['pdc_id'] ;?>"><i class="fa fa-pencil" aria-hidden="true"> </i></a></li>
+                              <a href="ver-detalle-pdc-<?php echo $row['pdc_id'] ;?>"><i class="fa fa-eye" aria-hidden="true"> </i></a>
+                              <a href="eliminar-pdc-<?php echo $row['pdc_id'] ;?>"><i class="fa fa-trash" aria-hidden="true"> </i></a>
                             </ul>
                           </div>
                         </td>

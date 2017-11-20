@@ -23,6 +23,8 @@
         public function create($data){
             try {
                 // $sql="INSERT INTO tipo_pdc(tipoPdcNombre, tipoPdcDescripcion) VALUES (?,?)";
+
+                // print_r($data);
                 $sql="INSERT INTO pdc(pdc_nit, tipo_pdc_Codigo, pdc_nombre, pdc_direccion, pdc_hora_apertura, pdc_hora_cierre, pdc_latitud, pdc_longitud, pdc_estado, pdc_telefono, pdc_celular)
                       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
                 $query=$this->pdo->prepare($sql);
@@ -39,6 +41,19 @@
         public function readAll(){
             try {
                 $sql="SELECT * FROM pdc";
+                $query=$this->pdo->prepare($sql);
+                $query->execute();
+                $result = $query->fetchALL(PDO::FETCH_BOTH);
+            } catch (PDOException $e) {
+                $result = $e->getMessage();
+            }
+            return $result;
+        }
+
+
+        public function readAlltpdc(){
+            try {
+                $sql="SELECT * FROM tipo_pdc";
                 $query=$this->pdo->prepare($sql);
                 $query->execute();
                 $result = $query->fetchALL(PDO::FETCH_BOTH);
@@ -80,7 +95,7 @@
 
         public function delete($data){
             try {
-                $sql="DELETE FROM pdc WHERE pdc_nit = ?";
+                $sql="DELETE FROM pdc WHERE pdc_id = ?";
                 $query=$this->pdo->prepare($sql);
                 $query->execute(array($data));
                 $msn ="Eliminado Exitosamente";

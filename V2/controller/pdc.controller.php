@@ -40,7 +40,8 @@ class PdcController {
     public function newPdc(){
         $data = $_POST['data'];
         $result = $this->pdc->create($data);
-            header("Location: gestion-pdc");
+        // die('</br>'.$result);
+        header("Location: gestion-pdc");
     }
 
     public function readPdc(){
