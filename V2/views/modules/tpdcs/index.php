@@ -9,7 +9,7 @@
 <div class="modules">
     <header>
         <h1> <i class="fa fa-cutlery" aria-hidden="true"></i> - Tipos PDC</h1>
-        <p>Este es el modulo de tipos o categoría de Puntos de Comida (PDC)</p>
+        <p>Este es el modulo de tipos de Puntos de Comida (PDC)</p>
         <div class="wrap--btns">
             <div class="breadcrums">
             		<ul>
@@ -42,13 +42,13 @@
                 foreach ($this->readTpdc() as $row) {?>
                     <tr>
                         <td><?php echo $item;?></td>
-                        <td class="hideTd"><?php echo $row['tipoPdcNombre'] ?></td>
-                        <td class="hideTd"><?php echo $row['tipoPdcDescripcion'] ?></td>
+                        <td class="hideTd"><?php echo $row['tipo_pdc_nombre'] ?></td>
+                        <td class="hideTd"><?php echo $row['tipo_pdc_descripcion'] ?></td>
                         <td>
                           <div class="menu--top2" >
                             <ul>
-                              <li><a href="actualizar-tpdc-<?php echo $row['tipoPdcCodigo'] ;?>"><i class="fa fa-pencil" aria-hidden="true"> </i></a></li>
-                              <a href="eliminar-tpdc-<?php echo $row['tipoPdcCodigo'] ;?>"><i class="fa fa-trash" aria-hidden="true"> </i></a>
+                              <li><a href="actualizar-tpdc-<?php echo $row['tipo_pdc_nombre'] ;?>"><i class="fa fa-pencil" aria-hidden="true"> </i></a></li>
+                              <a href="eliminar-tpdc-<?php echo $row['tipo_pdc_nombre'] ;?>"><i class="fa fa-trash" aria-hidden="true"> </i></a>
                             </ul>
                           </div>
                         </td>

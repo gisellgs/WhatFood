@@ -1,11 +1,17 @@
+<?php
+    $dataPdc = $this -> readByPdc($_GET["data"]);
+    print_r($dataPdc);
+
+?>
+
 <div class="modules internal-page" id="cuerpoPdc">
     <header>
-        <h1>Crear PDC</h1>
+        <h1>Actualizar PDC</h1>
         <div class="breadcrums">
             <ul>
                 <li><a href="dashboard"> <i class="fa fa-home"> </i>Dashboard </a></li>
                 <li><a href="gestion-pdc"> PDC </a></li>
-                <li>Nuevo PDC</li>
+                <li>Actualizar PDC</li>
             </ul>
         </div>
     </header>
@@ -13,19 +19,26 @@
         <form id="dataFrm_pdc_new" class="dataFrm_pdc_new" name="frmPDC" action="guardar-pdc" method="post" enctype="multipart/form-data">
             <div class="form-group input-field" id="new-nit-pdc">
                 <label for="nitPdc" class="require">Nit:</label>
-                <input type="text" name="data[]" id="nitPdc" required maxlength="45">
+                <input type="text" name="data[]" id="nitPdc" required maxlength="45" value=" <?php echo $dataPdc["pdc_nit"] ?>">
             </div>
 
             <div class="form-group input-field" id="consulta-tpdc">
+
                 <label for="id_tpdc" class="require"> <a href="crear-tpdc"> Tipo PDC: </a> </label>
                 <select name="data[]" id="id_tpdc" required>
-                    <option value="" selected="selected" disabled>Selecciona uno</option>
+                    <!-- <option value="" selected="selected" disabled>Selecciona uno</option> -->
                     <?php
                         $result = $this->pdc->readAlltpdc();
                         foreach ($result as $row) {
-                          echo "<option value=".$row['tipo_pdc_codigo']."> "
-                          .$row['tipo_pdc_nombre'].
-                          "</option>";
+                          if($dataPdc["tipo_pdc_codigo"] == $row["tipoPdcCodigo"]){
+                              echo "<option value=" .$row['tipoPdcCodigo']. " selected> "
+                              .$row['tipoPdcNombre'].
+                              "</option>";
+                          }else{
+                              echo "<option value=".$row['tipoPdcCodigo']."> "
+                              .$row['tipoPdcNombre'].
+                              "</option>";
+                          }
                         }
                     ?>
                 </select>

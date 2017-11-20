@@ -56,9 +56,9 @@
                         <td>
                           <div class="menu--top2" >
                             <ul>
-                              <li><a href="actualizar-pdc-<?php echo $row['pdc_id'] ;?>"><i class="fa fa-pencil" aria-hidden="true"> </i></a></li>
-                              <a href="ver-detalle-pdc-<?php echo $row['pdc_id'] ;?>"><i class="fa fa-eye" aria-hidden="true"> </i></a>
-                              <a href="eliminar-pdc-<?php echo $row['pdc_id'] ;?>"><i class="fa fa-trash" aria-hidden="true"> </i></a>
+                              <li><a href="actualizar-pdc-<?php echo $row['pdc_nit'] ;?>"><i class="fa fa-pencil" aria-hidden="true"> </i></a></li>
+                              <a href="ver-detalle-pdc-<?php echo $row['pdc_nit'] ;?>"><i class="fa fa-eye" aria-hidden="true"> </i></a>
+                              <a href="eliminar-pdc-<?php echo $row['pdc_nit'] ;?>"><i class="fa fa-trash" aria-hidden="true"> </i></a>
                             </ul>
                           </div>
                         </td>

@@ -22,7 +22,7 @@
 
         public function create($data){
             try {
-                $sql="INSERT INTO tipo_pdc(tipoPdcNombre, tipoPdcDescripcion) VALUES (?,?)";
+                $sql="INSERT INTO tipo_pdc(tipo_pdc_nombre, tipo_pdc_descripcion) VALUES (?,?)";
                 $query=$this->pdo->prepare($sql);
                 $query->execute(array($data[0],$data[1]));
                 $msn ="Guardado Exitosamente.";
@@ -36,7 +36,7 @@
 
         public function readAll(){
             try {
-                $sql="SELECT * FROM tipo_pdc";
+                $sql="SELECT tipo_pdc_nombre, tipo_pdc_descripcion FROM tipo_pdc";
                 $query=$this->pdo->prepare($sql);
                 $query->execute();
                 $result = $query->fetchALL(PDO::FETCH_BOTH);
@@ -49,7 +49,7 @@
 
         public function readBy($data){
             try {
-                $sql="SELECT * FROM tipo_pdc WHERE tipoPdcCodigo = ?";
+                $sql="SELECT tipo_pdc_nombre, tipo_pdc_descripcion FROM tipo_pdc WHERE tipo_pdc_nombre = ?";
                 $query=$this->pdo->prepare($sql);
                 $query->execute(array($data));
                 $result = $query->fetch(PDO::FETCH_BOTH);
@@ -62,7 +62,7 @@
 
         public function update($data){
           try {
-                $sql="UPDATE tipo_pdc SET tipoPdcNombre=?, tipoPdcDescripcion=? WHERE tipoPdcCodigo= ?";
+                $sql="UPDATE tipo_pdc SET tipo_pdc_nombre=?, tipo_pdc_descripcion=? WHERE tipo_pdc_nombre= ?";
                 $query=$this->pdo->prepare($sql);
                 $query->execute(array($data[1],$data[2],$data[0]));
                 $msn ="Modificado Exitosamente.";
@@ -76,7 +76,7 @@
 
         public function delete($data){
             try {
-                $sql="DELETE FROM tipo_pdc WHERE tipoPdcCodigo = ?";
+                $sql="DELETE FROM tipo_pdc WHERE tipo_pdc_nombre= ?";
                 $query=$this->pdo->prepare($sql);
                 $query->execute(array($data));
                 $msn ="Eliminado Exitosamente";

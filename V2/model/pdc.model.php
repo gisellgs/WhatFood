@@ -95,7 +95,7 @@
 
         public function delete($data){
             try {
-                $sql="DELETE FROM pdc WHERE pdc_id = ?";
+                $sql="DELETE FROM pdc WHERE pdc_nit = ?";
                 $query=$this->pdo->prepare($sql);
                 $query->execute(array($data));
                 $msn ="Eliminado Exitosamente";
