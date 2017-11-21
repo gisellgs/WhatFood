@@ -1,6 +1,25 @@
 // Da formato a las tablas
-$("#dataGrid").DataTable();
-// $("#dataFrm").DataForm();
+$(document).ready( function () {
+     $("#dataGrid").DataTable({
+      "language":{
+       "lengthMenu":"Mostrar _MENU_ registros por página.",
+       "zeroRecords": "Lo sentimos. No se encontraron registros.",
+             "info": "Mostrando página _PAGE_ de _PAGES_",
+             "infoEmpty": "No hay registros aún.",
+             "infoFiltered": "(filtrados de un total de _MAX_ registros)",
+             "search" : "Búsqueda",
+             "LoadingRecords": "Cargando ...",
+             "Processing": "Procesando...",
+             "SearchPlaceholder": "Comience a teclear...",
+             "previous": "Anterior",
+             "next": "Siguiente",
+             "paginate": {
+             "previous": "Anterior",
+             "next": "Siguiente",
+     }
+      }
+     });
+ } );// $("#dataFrm").DataForm();
 
 // ***************************************************************************
 $(".icon--mobile").click(function(){
