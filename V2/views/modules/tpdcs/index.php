@@ -47,8 +47,8 @@
                         <td>
                           <div class="menu--top2" >
                             <ul>
-                              <li><a href="actualizar-tpdc-<?php echo $row['tipo_pdc_nombre'] ;?>"><i class="fa fa-pencil" aria-hidden="true"> </i></a></li>
-                              <a href="eliminar-tpdc-<?php echo $row['tipo_pdc_nombre'] ;?>"><i class="fa fa-trash" aria-hidden="true"> </i></a>
+                              <li><a href="actualizar-tpdc-<?php echo $row['tipo_pdc_codigo'] ;?>"><i class="fa fa-pencil" aria-hidden="true"> </i></a></li>
+                              <a href="eliminar-tpdc-<?php echo $row['tipo_pdc_codigo'] ;?>"><i class="fa fa-trash" aria-hidden="true"> </i></a>
                             </ul>
                           </div>
                         </td>

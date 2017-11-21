@@ -36,7 +36,8 @@
 
         public function readAll(){
             try {
-                $sql="SELECT tipo_pdc_nombre, tipo_pdc_descripcion FROM tipo_pdc";
+                // $sql="SELECT tipo_pdc_nombre, tipo_pdc_descripcion FROM tipo_pdc";
+                $sql="SELECT * FROM tipo_pdc";
                 $query=$this->pdo->prepare($sql);
                 $query->execute();
                 $result = $query->fetchALL(PDO::FETCH_BOTH);
@@ -49,7 +50,8 @@
 
         public function readBy($data){
             try {
-                $sql="SELECT tipo_pdc_nombre, tipo_pdc_descripcion FROM tipo_pdc WHERE tipo_pdc_nombre = ?";
+                // $sql="SELECT tipo_pdc_nombre, tipo_pdc_descripcion FROM tipo_pdc WHERE tipo_pdc_nombre = ?";
+                $sql="SELECT * FROM tipo_pdc WHERE tipo_pdc_codigo = ?";
                 $query=$this->pdo->prepare($sql);
                 $query->execute(array($data));
                 $result = $query->fetch(PDO::FETCH_BOTH);
@@ -61,8 +63,11 @@
 
 
         public function update($data){
+          // print_r($data);
+          // die();
           try {
-                $sql="UPDATE tipo_pdc SET tipo_pdc_nombre=?, tipo_pdc_descripcion=? WHERE tipo_pdc_nombre= ?";
+                $sql="UPDATE tipo_pdc
+                      SET tipo_pdc_nombre=?, tipo_pdc_descripcion=? WHERE tipo_pdc_codigo= ?";
                 $query=$this->pdo->prepare($sql);
                 $query->execute(array($data[1],$data[2],$data[0]));
                 $msn ="Modificado Exitosamente.";
@@ -76,7 +81,7 @@
 
         public function delete($data){
             try {
-                $sql="DELETE FROM tipo_pdc WHERE tipo_pdc_nombre= ?";
+                $sql="DELETE FROM tipo_pdc WHERE tipo_pdc_codigo= ?";
                 $query=$this->pdo->prepare($sql);
                 $query->execute(array($data));
                 $msn ="Eliminado Exitosamente";

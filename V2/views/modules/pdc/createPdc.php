@@ -11,10 +11,6 @@
     </header>
     <div class="wrap--frm">
         <form id="dataFrm_pdc_new" class="dataFrm_pdc_new" name="frmPDC" action="guardar-pdc" method="post" enctype="multipart/form-data">
-            <div class="form-group input-field" id="new-nit-pdc">
-                <label for="nitPdc" class="require">Nit:</label>
-                <input type="number" name="data[]" id="nitPdc" required maxlength="45">
-            </div>
 
             <div class="form-group input-field" id="consulta-tpdc">
                 <label for="id_tpdc" class="require"> <a href="crear-tpdc"> Tipo PDC: </a> </label>
@@ -29,6 +25,11 @@
                         }
                     ?>
                 </select>
+            </div>
+
+            <div class="form-group input-field" id="new-nit-pdc">
+                <label for="nitPdc" class="require">Nit ó cédula del propietario:</label>
+                <input type="number" name="data[]" id="nitPdc" required maxlength="45">
             </div>
 
             <div class="form-group input-field" id="new-name-pdc">

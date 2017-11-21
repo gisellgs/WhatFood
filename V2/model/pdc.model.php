@@ -25,7 +25,7 @@
                 // $sql="INSERT INTO tipo_pdc(tipoPdcNombre, tipoPdcDescripcion) VALUES (?,?)";
 
                 // print_r($data);
-                $sql="INSERT INTO pdc(pdc_nit, tipo_pdc_Codigo, pdc_nombre, pdc_direccion, pdc_hora_apertura, pdc_hora_cierre, pdc_latitud, pdc_longitud, pdc_estado, pdc_telefono, pdc_celular)
+                $sql="INSERT INTO pdc(tipo_pdc_Codigo, pdc_nit, pdc_nombre, pdc_direccion, pdc_hora_apertura, pdc_hora_cierre, pdc_latitud, pdc_longitud, pdc_estado, pdc_telefono, pdc_celular)
                       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
                 $query=$this->pdo->prepare($sql);
                 $query->execute(array($data[0],$data[1],$data[2],$data[3],$data[4],$data[5],$data[6],$data[7],$data[8],$data[9],$data[10]));
@@ -78,12 +78,13 @@
 
 
         public function update($data){
+          print_r($data);
+          // die();
           try {
-                // $sql="UPDATE tipo_pdc SET tipoPdcNombre=?, tipoPdcDescripcion=? WHERE tipoPdcCodigo= ?";
-                $sql="UPDATE pdc SET pdc_nit, tipo_pdc_Codigo=?, pdc_nombre=?, pdc_direccion=?, pdc_hora_apertura=?,
+                $sql="UPDATE pdc SET pdc_nit=?, tipo_pdc_Codigo=?, pdc_nombre=?, pdc_direccion=?, pdc_hora_apertura=?,
                     pdc_hora_cierre=?, pdc_latitud=?, pdc_longitud=?, pdc_estado=?, pdc_telefono=?, pdc_celular=? WHERE pdc_nit=?";
                 $query=$this->pdo->prepare($sql);
-                $query->execute(array($data[0], $data[1],$data[2],$data[3],$data[4],$data[5],$data[6],$data[7],$data[8],$data[9],$data[10],$data[11],$data[0]));
+                $query->execute(array($data[0], $data[1],$data[2],$data[3],$data[4],$data[5],$data[6],$data[7],$data[8],$data[9],$data[10],$data[0]));
                 $msn ="Modificado Exitosamente.";
                 // echo $msn;
             } catch (PDOException $e) {
