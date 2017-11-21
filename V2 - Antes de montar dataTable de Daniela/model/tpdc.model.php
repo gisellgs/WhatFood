@@ -8,7 +8,7 @@
 @dataUpdate:
 @userUpdate:
 */
-    class PdcModel{
+    class TpdcModel{
         private $pdo;
         public function __CONSTRUCT(){
             try {
@@ -22,13 +22,9 @@
 
         public function create($data){
             try {
-                // $sql="INSERT INTO tipo_pdc(tipoPdcNombre, tipoPdcDescripcion) VALUES (?,?)";
-
-                // print_r($data);
-                $sql="INSERT INTO pdc(pdc_nit, tipo_pdc_Codigo, pdc_nombre, pdc_direccion, pdc_hora_apertura, pdc_hora_cierre, pdc_latitud, pdc_longitud, pdc_estado, pdc_telefono, pdc_celular)
-                      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                $sql="INSERT INTO tipo_pdc(tipo_pdc_nombre, tipo_pdc_descripcion) VALUES (?,?)";
                 $query=$this->pdo->prepare($sql);
-                $query->execute(array($data[0],$data[1],$data[2],$data[3],$data[4],$data[5],$data[6],$data[7],$data[8],$data[9],$data[10]));
+                $query->execute(array($data[0],$data[1]));
                 $msn ="Guardado Exitosamente.";
             } catch (PDOException $e) {
                 $msn = $e->getMessage();
@@ -40,20 +36,7 @@
 
         public function readAll(){
             try {
-                $sql="SELECT * FROM pdc";
-                $query=$this->pdo->prepare($sql);
-                $query->execute();
-                $result = $query->fetchALL(PDO::FETCH_BOTH);
-            } catch (PDOException $e) {
-                $result = $e->getMessage();
-            }
-            return $result;
-        }
-
-
-        public function readAlltpdc(){
-            try {
-                $sql="SELECT * FROM tipo_pdc";
+                $sql="SELECT tipo_pdc_nombre, tipo_pdc_descripcion FROM tipo_pdc";
                 $query=$this->pdo->prepare($sql);
                 $query->execute();
                 $result = $query->fetchALL(PDO::FETCH_BOTH);
@@ -66,7 +49,7 @@
 
         public function readBy($data){
             try {
-                $sql="SELECT * FROM pdc WHERE pdc_nit = ?";
+                $sql="SELECT tipo_pdc_nombre, tipo_pdc_descripcion FROM tipo_pdc WHERE tipo_pdc_nombre = ?";
                 $query=$this->pdo->prepare($sql);
                 $query->execute(array($data));
                 $result = $query->fetch(PDO::FETCH_BOTH);
@@ -79,11 +62,9 @@
 
         public function update($data){
           try {
-                // $sql="UPDATE tipo_pdc SET tipoPdcNombre=?, tipoPdcDescripcion=? WHERE tipoPdcCodigo= ?";
-                $sql="UPDATE pdc SET pdc_nit, tipo_pdc_Codigo=?, pdc_nombre=?, pdc_direccion=?, pdc_hora_apertura=?,
-                    pdc_hora_cierre=?, pdc_latitud=?, pdc_longitud=?, pdc_estado=?, pdc_telefono=?, pdc_celular=? WHERE pdc_nit=?";
+                $sql="UPDATE tipo_pdc SET tipo_pdc_nombre=?, tipo_pdc_descripcion=? WHERE tipo_pdc_nombre= ?";
                 $query=$this->pdo->prepare($sql);
-                $query->execute(array($data[0], $data[1],$data[2],$data[3],$data[4],$data[5],$data[6],$data[7],$data[8],$data[9],$data[10],$data[11],$data[0]));
+                $query->execute(array($data[1],$data[2],$data[0]));
                 $msn ="Modificado Exitosamente.";
                 // echo $msn;
             } catch (PDOException $e) {
@@ -95,7 +76,7 @@
 
         public function delete($data){
             try {
-                $sql="DELETE FROM pdc WHERE pdc_nit = ?";
+                $sql="DELETE FROM tipo_pdc WHERE tipo_pdc_nombre= ?";
                 $query=$this->pdo->prepare($sql);
                 $query->execute(array($data));
                 $msn ="Eliminado Exitosamente";
