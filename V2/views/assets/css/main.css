@@ -30,6 +30,7 @@ body{
     -moz-box-flex: 1;
     -moz-user-focus: normal;
     -moz-box-orient: vertical;
+    text-align: auto;
 }
 
 /*landing*/
@@ -37,7 +38,7 @@ body{
 .bienvenida--landing{
     width: 100%;
     height: 100vh;
-    background: url("../image/pizza-001.jpg");
+    background: url("../image/restaurant-01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -48,36 +49,73 @@ body{
 .bienvenida--landing .capa{
   width: 100%;
   height: 100vh;
-  background-color: #000;
-  opacity: 0.30;
-  filter: opacity(30);
-  display: flex;
-  position: relative;
+  background-color: rgba(96,1,1,0.48);
 }
-
 
 .bienvenida--landing  section{
     width: 50%;
     position: relative;
+    margin: 0px;
 }
 
 .bienvenida--landing  div{
     width: 100%;
 }
 
-.bienvenida--landing  .logo{
+.bienvenida--landing .capa .logo{
+    text-align: right;
+    padding-right: 60px;
+    justify-content: center;
+    position: absolute;
+    padding: 50px 40px;
+}
+
+.bienvenida--landing .capa .logo img{
+    width: 25%;
+    margin-top: 50px;
+}
+
+.bienvenida--landing .rp {
+    font-size: 30px;
+    font-family: "Lato", "Oswald" , sans-serif;
+    color: #fffefe;
+    margin-top: 193px;
+    margin-left: 49px;
+    display: block;
+}
+
+.bienvenida--landing  .rp .wtf{
+    font-size: 18px;
+    font-family: "Lato", "Oswald" , sans-serif;
+    color: #fffefe;
+    top: 5px;
+    margin: 10px auto;
+}
+
+.bienvenida--landing  .rp .WF{
+    font-size: 18px;
+    font-family: "Lato", "Oswald" , sans-serif;
+    color: #fffefe;
     margin-bottom: 20px;
 }
 
-.bienvenida--landing  .intro{
-    color: #fff;
-    font-family: "lato";
-    font-size: 20px;
+.bienvenida--landing .rp .boton{
+    padding: 4px 51px;
+    background: #e7f9ff;
+    color: #f5270c;
+    border-radius: 16px;
+    border: 1px solid #fff;
+    font-family: "Lato","Oswald", "Roboto Slab", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    /*padding: 5px 10px;*/
+    right: 0;
 }
 
 .bienvenida--landing  .botonrojo{
     padding: 8px 16px;
-    /*display: inline-block;*/
     background: #f5270c;
     color: #fff;
     border-radius: 5px;
@@ -90,6 +128,79 @@ body{
     position: absolute;
     /*padding: 5px 10px;*/
     right: 0;
+}
+
+.fix-nav {
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.header-navigation {
+  background-color: #fff;
+  box-shadow: 0 0px 15px rgba(0,0,0,0.05);
+}
+
+.barr .nav-wrapper {
+    position: relative;
+    height: 100%;
+    /*background-color: rgba(255,0,0,0);*/
+    background-color: rgba(96,1,1,0.50);
+    /*border-radius: 10px solid red;*/
+}
+
+#logo-landing{
+  top: 1px;
+  /*width: 21%;*/
+  font-size: 20px;
+  font-family: "Roboto";
+  text-align: left;
+  margin-left: 16px;
+}
+
+.barr ul a{
+  color: #dfdfdf;
+  font-family: "Roboto","Roboto Slab","Oswald", sans-serif;
+  font-size: 15px;
+}
+
+.barr ul a:hover {
+    /*background-color: #f5270c;*/
+    color: #dfdfdf;
+}
+
+.silueta{
+  margin-top: -149px;
+}
+
+.landing--two{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.landing--two .que-es{
+  width: 40%;
+  margin: 40px auto 40px 139px;
+}
+
+.landing--two .plato {
+  width: 50%;
+  position: absolute;
+  bottom: auto;
+  left: 0px;
+}
+
+.landing--two .intro{
+    color: #7b7b7b;
+    font-family: "Lato";
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    height: 40%;
+    width: 40%;
 }
 
 /*SECCION MODULOS DE SESION*/
@@ -233,22 +344,14 @@ body{
     display: flex;
 }
 
-
  .session .background-session .login .form-group input[type="email"],
  .session .background-session .login .form-group input[type="text"],
  .session .background-session .login .form-group input[type="password"]{
-     /*color del borde del cuadro de texto */
-     /*border: 1px solid #b7b7b7;*/
-     /*width: 100%;*/
      padding: 10px;
-     /*font-size: 16px;*/
      /*separacion de parrafos o lineas*/
      line-height: 1.25;
-     /*border-radius: 8px;*/
      /*para que no se pase de el max del contenido*/
      box-sizing: border-box;
-     /*outline: none;*/
-     /*transition: 0.5s;*/
  }
 
 
@@ -266,68 +369,108 @@ input:focus:not([type]):not([readonly]), input[type="text"]:focus:not(.browser-d
 
 /*seccion de registro*/
 
-.background-registry{
-  /*fondo de regristros*/
+.registry div{
+  min-height: 100vh;
+}
+
+.registry{
+  display:grid;
+  grid-template-columns: 60% 40%
+}
+
+.section--left{
+  background: url("../image/cup-01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section--right{
+  background-color: #f9f9f9;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .55);
+  border-radius: 3px;
+  border: 3px solid #e0f6fd;
+}
+
+.section--right .security{
+  position: absolute;
+}
+
+/*.background-registry{
+  fondo de regristros
     background: url("../image/red-wine.jpg");
     background-size: cover;
     width: 100%;
     height: 100vh;
-    /*esto me centr el recuadro amarillo */
+    esto me centr el recuadro amarillo
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}*/
 
-.background-registry .security{
-  /*cuadro de sesion*/
+/*.section--right .security{
     background-color: #f9f9f9;
-    /*centrar el recuadro*/
     margin-left: auto;
     margin-right: auto;
     min-height: 374px;
     min-width: 320px;
     max-width: 730px;
     max-height: 447px;
-    /*tamaño del cuadro */
     padding: 23px;
     margin-bottom: 28px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, .55);
     border-radius: 3px;
     border: 6px solid #8f5952;
     justify-content: center;
+}*/
+
+/*.section--right .security header .h1food{
+    margin-top: 0px;
 }
 
-
-.background-registry .security header .h1food{
-    margin-top: 10px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.background-registry .security header .h1food img{
+.section--right .security header .h1food img{
   width: 30%;
-}
+}*/
 
-.background-registry .security .login{
+.section--right .security .login{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    width: 100%;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*margin-top: 20px;*/
+    /*width: 100%;*/
 }
 
-.background-registry .security .login form{
-   width: 95%;
+.section--right .security .login form{
+   /*width: 95%;*/
 }
 
-.registry .background-registry .security .login .form-group{
+.registry .section--right .security .login .form-group{
     display: block;
-    margin-bottom: -11px;
+    /*margin-bottom: -11px;*/
     /*margin-right: 60px;*/
 }
 
-.background-registry .security .login .btnregistry{
+.registry .section--left .fon .log{
+  /*position: absolute;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registry .section--left .fon .log img{
+  width: 40%;
+}
+
+.registry .section--left .fon{
+  width: auto;
+  height: 100vh;
+  background-color: rgba(224,246,253,0.48);
+}
+
+
+.section--right .security .login .btnregistry{
   padding: 5px 12px;
   background: #f5270c;
   color: #fff;
@@ -341,7 +484,6 @@ input:focus:not([type]):not([readonly]), input[type="text"]:focus:not(.browser-d
   margin-left: 252px;
 
 }
-
 
  /*1. section del menu principal */
  section.container{
@@ -388,7 +530,6 @@ input:focus:not([type]):not([readonly]), input[type="text"]:focus:not(.browser-d
      padding: 25px;
      font-size: 20px;
  }
-
 
 /*seccion del perfil la imagen y el nombre */
 .userProfile{
@@ -445,16 +586,6 @@ input:focus:not([type]):not([readonly]), input[type="text"]:focus:not(.browser-d
     border-radius: 10px;
 }
 
-/*.bienvenida--art {
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  margin: 10px auto;
-  border-radius: 10px;
-  text-align: justify;
-}*/
-
-
 /*este wrap--content es todo el lado izquiero donde se muestra las cargas articulos tabalas etc*/
  .wrap--content{
    width: 100%;
@@ -489,4 +620,341 @@ input:focus:not([type]):not([readonly]), input[type="text"]:focus:not(.browser-d
   padding: 10px 0px;
   /*este es el color de la barra de arriba*/
   background: #269fc1;
+}
+
+/*aplicar una modificacion media en la aplicacion y la propiedad visible */
+/*responsive de la landing */
+@media screen and (max-width:682px){
+  .silueta {
+    margin-top: -65px;
+  }
+  .bienvenida--landing .capa .logo img {
+    width: 35%;
+    margin-top: 50px;
+  }
+  .bienvenida--landing section {
+    top: -40px;
+  }
+  .landing--two .intro {
+    font-size: 16px;
+    width: 28%;
+    height: auto;
+  }
+  .landing--two .intro p{
+    margin-top: -50px;
+  }
+  .landing--two .plato {
+    width: 64%;
+    bottom: 60px;
+  }
+  .landing--two .que-es {
+    margin: 40px auto 22px 80px;
+  }
+  #logo-landing {
+    width: 2%;
+    left: 0px;
+    font-size: 17px;
+  }
+  .hide-on-med-and-down {
+    display: flex !important;
+  }
+  .app1{
+    display: none;
+  }
+  .barr ul a{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1047px){
+    .silueta {
+        margin-top: -115px;
+    }
+}
+@media screen and (max-width:1091px){
+    .silueta {
+      margin-top: -118px;
+    }
+}
+@media screen and (max-width:570px){
+  .silueta {
+    margin-top: -51px;
+  }
+  .bienvenida--landing .rp {
+    font-size: 24px;
+    margin-top: 172px;
+  }
+  .landing--two .intro {
+    width: 32%;
+  }
+  .bienvenida--landing .rp .wtf {
+    font-size: 16px;
+  }
+  .bienvenida--landing .rp .WF {
+    font-size: 16px;
+  }
+  .bienvenida--landing .rp .boton{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:580px){
+  .silueta {
+    margin-top: -58px;
+  }
+}
+
+@media screen and (max-width:520px){
+  .silueta {
+    margin-top: -51px;
+  }
+}
+
+@media screen and (max-width:451px){
+  .silueta {
+    margin-top: -48px;
+  }
+  .landing--two .intro {
+    display: contents;
+  }
+  .landing--two .intro p {
+    margin-top: 98px;
+    padding: 18px;
+  }
+  .landing--two .plato {
+    width: 75%;
+    bottom: -28px;
+    position: absolute;
+    align-items: center;
+    left: 40px;
+  }
+  .landing--two .que-es {
+    margin: 40px auto 20px 60px;
+    width: 50%;
+    position: absolute;
+    align-items: center;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width:439px){
+  .silueta {
+    margin-top: -46px;
+  }
+  .bienvenida--landing .rp {
+    font-size: 22px;
+  }
+  .bienvenida--landing .rp {
+    margin-left: 31px;
+  }
+  .bienvenida--landing .capa .logo img {
+    width: 40%;
+    margin-top: 78px;
+    margin: 78px -13px;
+  }
+  .landing--two .intro {
+    display: contents;
+  }
+  .landing--two .intro p {
+    margin-top: 98px;
+    padding: 18px;
+  }
+  .landing--two .plato {
+    width: 75%;
+    bottom: -28px;
+    position: absolute;
+    align-items: center;
+    left: 40px;
+  }
+  .landing--two .que-es {
+    margin: 40px auto 20px 60px;
+    width: 50%;
+    position: absolute;
+    align-items: center;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width:485px){
+  .bienvenida--landing .rp .boton {
+    font-size: 14px;
+    padding: 4px 37px;
+  }
+  #logo-landing{
+    display: none;
+  }
+  .barr ul a{
+    font-size: 13px;
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width:415px){
+  #logo-landing{
+    display: none;
+  }
+  .barr ul a{
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  .bienvenida--landing .rp {
+    font-size: 17px;
+    margin-left: 29px;
+  }
+  .bienvenida--landing .rp .wtf {
+    font-size: 14px;
+  }
+  .bienvenida--landing .rp .WF {
+    font-size: 14px;
+  }
+  .bienvenida--landing .rp .boton {
+    font-size: 10px;
+    padding: 4px 47px;
+  }
+  .bienvenida--landing .capa .logo img {
+    width: 40%;
+    margin-top: 50px;
+    margin: 50px -14px;
+  }
+  .silueta {
+    margin-top: -43px;
+  }
+  .landing--two .que-es {
+    margin: 40px auto 20px 60px;
+    width: 50%;
+    position: absolute;
+    align-items: center;
+    left: 40px;
+  }
+  .landing--two .intro{
+    display: contents;
+  }
+  .landing--two .intro p {
+    margin-top: 98px;
+    padding: 18px;
+    font-size: 15px;
+  }
+  .landing--two .plato {
+    width: 75%;
+    bottom: 0px;
+    position: absolute;
+    align-items: center;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width:397px){
+  .barr ul a{
+    font-size: 14px;
+    margin-left: 11px;
+  }
+  .barr .what{
+    display: none;
+  }
+  .bienvenida--landing .capa .logo img {
+    width: 41%;
+    margin: 58px -14px;
+  }
+}
+
+@media screen and (max-width:367px){
+  .bienvenida--landing .rp .boton {
+    font-size: 10px;
+    padding: 4px 38px;
+  }
+  .silueta {
+    margin-top: -39px;
+  }
+}
+
+@media screen and (max-width:385px){
+  .bienvenida--landing .rp .boton {
+    padding: 4px 38px;
+    font-size: 10px;
+  }
+  .silueta {
+    margin-top: -36px;
+  }
+  .bienvenida--landing .rp .wtf {
+    font-size: 13px;
+  }
+  .bienvenida--landing .rp .WF {
+    font-size: 13px;
+  }
+  .bienvenida--landing .capa .logo img {
+    width: 43%;
+    margin: 60px -21px;
+  }
+  .landing--two .intro p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:328px){
+  .barr ul a{
+    font-size: 13px;
+  }
+  .bienvenida--landing .rp .boton {
+    padding: 4px 36px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:319px){
+  .bienvenida--landing .rp .boton {
+    padding: 4px 32px;
+    font-size: 10px;
+  }
+  .bienvenida--landing .rp {
+    font-size: 16px;
+  }
+  .barr ul a{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:322px){
+  .bienvenida--landing .rp .boton {
+    padding: 4px 27px;
+    font-size: 10px;
+  }
+  .silueta {
+    margin-top: -31px;
+  }
+  .landing--two .que-es {
+    margin: 40px auto 20px 31px;
+  }
+  .landing--two .intro p {
+    font-size: 13px;
+  }
+  .bienvenida--landing .rp {
+    font-size: 15px;
+  }
+  .bienvenida--landing .capa .logo img {
+    width: 49%;
+    margin: 103px -26px;
+  }
+  .barr ul a{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:283px){
+  .silueta {
+    margin-top: -29px;
+  }
+  .bienvenida--landing .rp .boton {
+    padding: 4px 23px;
+    font-size: 10px;
+  }
+  .bienvenida--landing .rp {
+    font-size: 14px;
+    margin-left: 23px;
+  }
+  .bienvenida--landing .rp .wtf {
+    font-size: 12px;
+  }
+  .bienvenida--landing .rp .WF {
+    font-size: 12px;
+  }
 }
