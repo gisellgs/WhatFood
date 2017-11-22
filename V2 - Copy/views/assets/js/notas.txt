@@ -1,6 +1,0 @@
-
-// Se usan los mismos selectores de CSS, #, .
-$("selector").click()
-
-Se puede llamar una funcion dentro de otra funcion.
-Ejemplo al tratar de enviar formulario valide

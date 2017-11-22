@@ -32,12 +32,11 @@
                               echo "<option value=" .$row['tipo_pdc_codigo']. " selected> "
                               .$row['tipo_pdc_nombre'].
                               "</option>";
+                          }else{
+                              echo "<option value=".$row['tipo_pdc_codigo']."> "
+                              .$row['tipo_pdc_nombre'].
+                              "</option>";
                           }
-                          // else{
-                          //     echo "<option value=".$row['tipo_pdc_codigo']."> "
-                          //     .$row['tipo_pdc_nombre'].
-                          //     "</option>";
-                          // }
                         }
                     ?>
                 </span>

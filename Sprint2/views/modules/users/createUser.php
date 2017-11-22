@@ -57,12 +57,12 @@
             <input  id="txtpassNew" type="password" class="validate" name="data[]" required="required" value="">
         </div>
 
-        <!-- Alexis -->
-        <!-- <div class="g-recaptcha" data-sitekey="6LeD3jkUAAAAACjwy_NsJoAQtEaiZKRJ5M_Ih9lO"></div> -->
+
+
 
         <div class="col s12">
             <button type="submit" class="btn cyan waves-effect waves-light" style="width:100%; margin-top:20px" id="btnLoginNew">GUARDAR USUARIO</button>
-            <!-- <button type="submit" class="btn cyan waves-effect waves-light" style="width:100%; margin-top:20px" id="btnLoginNew" onclick="miFuncion()">GUARDAR USUARIO</button> -->
+
         </div>
     </form>
   </div>

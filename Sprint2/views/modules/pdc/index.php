@@ -8,7 +8,7 @@
 
 <div class="modules">
     <header>
-        <h1><i class="fa fa-window-restore" aria-hidden="true"></i> - PDC </h1>
+        <h1><i class="fa fa-window-restore" aria-hidden="true"></i> - Puntos de comida </h1>
         <p>Este es el modulo de gestion de Puntos de Comida (PDC)</p>
         <div class="wrap--btns">
             <div class="breadcrums">

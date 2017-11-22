@@ -20,7 +20,7 @@
                   <ul id="nav-mobile" class="right hide-on-med-and-down naves">
                       <li><a href="#quees" class="what">¿Que es WhatFood?</a></li>
                       <li><a href="dashboard">Iniciar Sesión</a></li>
-                      <li><a href="crear-auth-visitor">Registrate Gratis</a></li>
+                      <li><a href="crear-user">Registrate Gratis</a></li>
                       <li><a href="http://www.facebook.com" class="app1"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
                       <li><a href="http://www.gmail.com" class="app1"><i class="fa fa-google" aria-hidden="true"></i></a></li>
                       <li><a href="http://www.twitter.com" class="app1"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>

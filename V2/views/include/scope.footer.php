@@ -9,6 +9,7 @@
         <script src="views/assets/js/lib/parsley/parsley.min.js"></script>
         <script src="views/assets/js/lib/parsley/es.js"></script>
         <script src=views/assets/js/main.js></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
     </body>
     <script>
         $(function(){

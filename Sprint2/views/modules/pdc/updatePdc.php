@@ -1,6 +1,10 @@
 <?php
     $dataPdc = $this -> readByPdc($_GET["data"]);
-    // print_r($dataPdc);
+
+    print_r($dataPdc);
+
+    echo '</br>id: ';
+    echo $dataPdc['pdc_id'];
     // die();
 ?>
 
@@ -16,15 +20,10 @@
         </div>
     </header>
     <div class="wrap--frm">
-        <!-- <?php
-          echo '</br>id: ';
-          echo $dataPdc['pdc_id'];
-        ?> -->
-
         <form id="dataFrm_pdc_new" class="dataFrm_pdc_new" name="frmPDC" action="actualizar-pdc" method="post" enctype="multipart/form-data">
             <div class="form-group input-field" id="id_pdc">
-                <label for="pdc_id"></label>
-                <input type="hidden" name="data[]" id="pdc_id" required maxlength="45" value=" <?php echo $_GET["data"] ?>">
+                <label for="pdc_id">ID:</label>
+                <input type="text" name="data[]" id="pdc_id" required maxlength="45" value=" <?php echo $_GET["data"] ?>">
             </div>
 
             <div class="form-group input-field" id="new-nit-pdc">

@@ -73,7 +73,8 @@ class AuthController{
     // Metodo para cerrar sesion
     public function logout(){
         session_destroy();
-        header("Location: inicio");
+        // header("Location: inicio");
+        header("Location: landing");
     }
 
 

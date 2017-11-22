@@ -32,11 +32,15 @@
                         <label for="txtpass">Contraseña</label>
                     </div>
 
+                    <!-- Alexis -->
+                    <!-- <div class="g-recaptcha" data-sitekey="6LeD3jkUAAAAACjwy_NsJoAQtEaiZKRJ5M_Ih9lO"></div> -->
+
                     <button type="submit" class="btnred" id="btnLogin">INICIAR SESION</button>
 
                     <div class="registro">
                         <a href="crear-user" class="regis">Registrar Usuario</a>
                     </div>
+
                     <a class="entra">Inicia sesión con</a>
                 </form>
             </div>
