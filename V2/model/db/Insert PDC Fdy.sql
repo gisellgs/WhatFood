@@ -6,6 +6,7 @@ SELECT * FROM pdc WHERE pdc_nit=8464228;
 
 
 SELECT * FROM pdc;
-UPDATE pdc SET pdc_nit=43414841, tipo_pdc_Codigo=4, pdc_nombre='Fredy-chuzos', pdc_direccion='Calle 70 -80-32', pdc_hora_apertura='10:00', 
-pdc_hora_cierre='18:00', pdc_latitud='-6.00000', pdc_longitud='7.00000', pdc_estado='1', pdc_telefono='5893160', pdc_celular='3137972381' 
-WHERE pdc_id=14;
+
+UPDATE pdc SET pdc_nit=18464229, tipo_pdc_Codigo=1, pdc_nombre='empa', pdc_direccion='clle', pdc_hora_apertura='10:20', pdc_hora_cierre='12:10', pdc_latitud='6.0000', pdc_longitud='-7.000', pdc_estado='2', pdc_telefono='8401234', pdc_celular='300' WHERE pdc_id=1;
+
+USE WHATFOOD;

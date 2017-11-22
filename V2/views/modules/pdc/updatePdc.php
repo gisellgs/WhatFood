@@ -1,7 +1,11 @@
 <?php
     $dataPdc = $this -> readByPdc($_GET["data"]);
+
     print_r($dataPdc);
 
+    echo '</br>id: ';
+    echo $dataPdc['pdc_id'];
+    // die();
 ?>
 
 <div class="modules internal-page" id="cuerpoPdc">
@@ -17,6 +21,11 @@
     </header>
     <div class="wrap--frm">
         <form id="dataFrm_pdc_new" class="dataFrm_pdc_new" name="frmPDC" action="actualizar-pdc" method="post" enctype="multipart/form-data">
+            <div class="form-group input-field" id="id_pdc">
+                <label for="pdc_id">ID:</label>
+                <input type="text" name="data[]" id="pdc_id" required maxlength="45" value=" <?php echo $_GET["data"] ?>">
+            </div>
+
             <div class="form-group input-field" id="new-nit-pdc">
                 <label for="nitPdc" class="require">Nit:</label>
                 <input type="text" name="data[]" id="nitPdc" required maxlength="45" value=" <?php echo $dataPdc["pdc_nit"] ?>">
@@ -58,11 +67,11 @@
                 <legend class="require">Horario:</legend>
                 <div class="form-group input-field" id="new-hori-pdc">
                     <label for="horaiPdc">Desde:</label>
-                    <input type="text" name="data[]" id="horaiPdc" required value="<?php echo $dataPdc['pdc_hora_apertura']?>">
+                    <input type="time" name="data[]" id="horaiPdc" required value="<?php echo $dataPdc['pdc_hora_apertura']?>">
                 </div>
                 <div class="form-group input-field" id="new-horf-pdc">
                     <label for="horafPdc">Hasta:</label>
-                    <input type="text" name="data[]" id="horafPdc" required value="<?php echo $dataPdc['pdc_hora_cierre']?>">
+                    <input type="time" name="data[]" id="horafPdc" required value="<?php echo $dataPdc['pdc_hora_cierre']?>">
                 </div>
             </fieldset>
 
@@ -82,18 +91,18 @@
                 <div class="form-group input-radio" id="new-estado-pdc">
                     <?php if($dataPdc['pdc_estado'] == 1) { ?>
                         <label>
-                            <input class="input-radio-open" id="input-radio-open" type="radio" name="data[]" value="1" required checked required value="<?php echo $dataPdc['pdc_estado']?>">Abierto
+                            <input class="input-radio-open" id="input-radio-open" type="radio" name="data[]" value="1" checked required value="<?php echo $dataPdc['pdc_estado']?>">Abierto
                         </label>
                         <label>
-                            <input class="input-radio"      id="input-radio-close" type="radio" name="data[]" value="2" required required value="<?php echo $dataPdc['pdc_estado']?>">Cerrado
+                            <input class="input-radio"      id="input-radio-close" type="radio" name="data[]" value="2" required value="<?php echo $dataPdc['pdc_estado']?>">Cerrado
                         <label>
 
                     <?php } else { ?>
                       <label>
-                          <input class="input-radio-open" id="input-radio-open" type="radio" name="data[]" value="1" required required value="<?php echo $dataPdc['pdc_estado']?>">Abierto
+                          <input class="input-radio-open" id="input-radio-open" type="radio" name="data[]" value="1" required value="<?php echo $dataPdc['pdc_estado']?>">Abierto
                       </label>
                       <label>
-                          <input class="input-radio"      id="input-radio-close" type="radio" name="data[]" value="2" required checked required value="<?php echo $dataPdc['pdc_estado']?>">Cerrado
+                          <input class="input-radio"      id="input-radio-close" type="radio" name="data[]" value="2" required checked value="<?php echo $dataPdc['pdc_estado']?>">Cerrado
                       <label>
 
                       <?php }?>

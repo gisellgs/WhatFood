@@ -57,9 +57,6 @@ class PdcController {
     public function updatePdc(){
         $data = $_POST['data'];
         $result = $this->pdc->update($data);
-        // print_r($data);
-        // die();
-        die($result);
         header("Location: gestion-pdc");
         return $result;
     }
