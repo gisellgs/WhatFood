@@ -1,9 +1,11 @@
   <div class="userProfile">
               <div class="userProfile--img">
-                  <img src="views/assets/image/logo_default.png" alt="profile">
+
+                  <a href="gestion-users"><img src="views/assets/image/logo_default.png" alt="profile"/></a>
+
               </div>
               <div class="userPprofile--name">
-                  <h2><a href="#" class="left">
+                  <h2><a href="gestion-users" class="left">
                   <?php
                       if(!isset($_SESSION["user"])){
                           echo "No ha iniciado sesion";

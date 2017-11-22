@@ -37,7 +37,7 @@
           restaurantes que se encuentran cerca de tu ubicacion.</p>
           <p class="WF">Simplemente registrate de forma gratuita y comienza a disfrutar los beneficios
           que WhatFood trae para ti.</p>
-          <div class="cap"><a href="crear-auth-visitor" class="boton">Deseo Registrarme!</a></div>
+          <div class="cap"><a href="crear-user" class="boton">Deseo Registrarme!</a></div>
         </div>
           <!-- <div class="cap"><a href="dashboard" class="botonrojo">INICIAR SESION</a></div> -->
       </section>

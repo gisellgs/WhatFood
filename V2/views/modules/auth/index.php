@@ -14,8 +14,10 @@
     <div class="background-session">
         <div class="security">
             <header>
-                <div class="h1food">
-                    <img src="views/assets/image/logowhatfood.png">
+                <div class="h1food" >
+                    <center>
+                        <a href="landing"><img src="views/assets/image/logowhatfood.png"/></a>
+                    </center>
                 </div>
             </header>
 
@@ -38,20 +40,22 @@
                     <button type="submit" class="btnred" id="btnLogin">INICIAR SESION</button>
 
                     <div class="registro">
-                        <a href="crear-user" class="regis">Registrar Usuario</a>
+                        <a href="crear-user" class="regis">Registrar</a>
                     </div>
 
-                    <a class="entra">Inicia sesión con</a>
+                    <!-- DESACTIVADO PARA SPRINT REVIEW 2 -->
+                    <!-- <a class="entra">Inicia sesión con</a> -->
                 </form>
             </div>
 
-            <div class="redes--sociales">
+            <!-- DESACTIVADO PARA SPRINT REVIEW 2 -->
+            <!-- <div class="redes--sociales">
                 <ul>
                     <li><a href="http://www.facebook.com" class="app"> <i class="fa fa-facebook-official " aria-hidden="true"> </i> </a></li>
                     <li><a href="http://www.gmail.com"    class="app"> <i class="fa fa-google" aria-hidden="true"> </i> </a></li>
                     <li><a href="http://www.twitter.com"  class="app"> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
